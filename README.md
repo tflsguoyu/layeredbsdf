@@ -11,7 +11,7 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
 
 ## Install
 
-  ### Liunx (Preferred, Tested on Ubuntu 16.04)
+  ### Linux (Preferred, Tested on Ubuntu 16.04)
    - `$ git clone https://github.com/tflsguoyu/layeredbsdf.git`
    - `$ cd layeredbsdf/`
    - `$ mv config_linux.py config.py`
@@ -23,9 +23,16 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
    
   ### Windows (Tested on Windows 10 x64)
    - install windows 2017
+   - clone this git to local folder
+   - go to folder ..\layeredbsdf\
+   - rename config_windows.py to config.py
+   - download [dependencies](https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/dependencies.zip)
    - 
    - 
-
+   
 ## Example scenes
+<img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" width="256px">
+[download](https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/teaser.zip)
 
-## Notes
+## Notes for scene file (.xml)
+
