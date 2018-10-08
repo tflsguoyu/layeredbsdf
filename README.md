@@ -22,7 +22,7 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
    - `$ mitsuba xxx.xml`
    
   ### Windows (Tested on Windows 10 x64)
-   - install windows 2017
+   - install visual studio 2017
    - clone this git to local folder
    - go to folder ..\layeredbsdf\
    - rename config_windows.py to config.py
@@ -31,8 +31,11 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
    - 
    
 ## Example scenes
-<img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" width="256px">
-[download](https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/teaser.zip)
+  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" width="256px">
+  [download](https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/teaser.zip)
+  
+  
 
 ## Notes for scene file (.xml)
-
+ - 
+ - 
