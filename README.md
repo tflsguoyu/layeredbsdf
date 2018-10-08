@@ -30,7 +30,7 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
    - 
    - 
    
-## Example scenes
+## Example scenes (click image to download scene files)
 <a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/teaser.zip">
   <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" alt="" width="256px">
 </a>
