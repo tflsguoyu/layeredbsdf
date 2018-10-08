@@ -48,5 +48,5 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
  - `<bsdf type="multilayered"> ... </bsdf>` (BSDF type is `multilayered`, both our `uni-dir` and `bi-dir` methods are implemented here)
  - 
 ## Notes
- - Defaulty of presicion in `config.py` is `single`. If you find too many warnings or even crashed when rendering scenes, you should try `double` presicion instead. (Already provided in `config.py`)
+ - Default precision in `config.py` is `single`. If you find too many warnings or even crashed when rendering scenes, you should try `double` precision instead. (Already provided in `config.py`)
  - 
