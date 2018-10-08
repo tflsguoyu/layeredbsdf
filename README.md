@@ -34,17 +34,19 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
 (Will have more..)
 
 <a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/teaser.zip">
-  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" alt="" height="128px">
+  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" alt="teaser" height="128px">
 </a>
   
 <a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/fig2.zip">
-  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/fig2.jpg" alt="" height="128px">
+  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/fig2.jpg" alt="fig2" height="128px">
 </a>
   
 
 ## Scene file (.xml) explanation
+ - `<scene version="0.6.0">` (Here using 0.6.0, but not 0.5.0)
+ - `<integrator type="path_layered">` (This integrator is based on `path`)
+ - `<bsdf type="multilayered"> ... </bsdf>` (BSDF type is `multilayered`, both our `uni-dir` and `bi-dir` methods are implemented here)
  - 
- - 
- 
 ## Notes
+ - Defaulty of presicion in `config.py` is `single`. If you find too many warnings or even crashed when rendering scenes, you should try `double` presicion instead. (Already provided in `config.py`)
  - 
