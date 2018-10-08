@@ -34,11 +34,11 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
 (Will have more..)
 
 <a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/teaser.zip">
-  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" alt="" width="256px">
+  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" alt="" height="128px">
 </a>
   
 <a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/fig2.zip">
-  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/fig2.jpg" alt="" width="256px">
+  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/fig2.jpg" alt="" height="128px">
 </a>
   
 
