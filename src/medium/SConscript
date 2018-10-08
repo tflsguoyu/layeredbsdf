@@ -1,0 +1,7 @@
+Import('env', 'plugins')
+
+plugins += env.SharedLibrary('homogeneous', ['homogeneous.cpp'])
+plugins += env.SharedLibrary('heterogeneous', ['heterogeneous.cpp'])
+plugins += env.SharedLibrary('homogeneous_aniso', ['homogeneous_aniso.cpp'])
+
+Export('plugins')

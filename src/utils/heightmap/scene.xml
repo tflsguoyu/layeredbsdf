@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<scene version="0.6.0">
+	
+	
+	<shape type="heightfield">
+		<string name="filename" value="Patch_height_513.exr"/>
+		<float name="scale" value="1"/>
+
+		<transform name="toWorld">
+			<scale x="1" y="1"/>
+			<rotate x="1" angle="0"/>
+			<translate x="0" y="0" z="0"/>
+		</transform>
+	
+	</shape>
+
+</scene>

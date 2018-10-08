@@ -1,0 +1,30 @@
+Import('env', 'plugins')
+
+plugins += env.SharedLibrary('addimages', ['addimages.cpp'])
+plugins += env.SharedLibrary('joinrgb', ['joinrgb.cpp'])
+plugins += env.SharedLibrary('cylclip', ['cylclip.cpp'])
+plugins += env.SharedLibrary('kdbench', ['kdbench.cpp'])
+plugins += env.SharedLibrary('tonemap', ['tonemap.cpp'])
+#plugins += env.SharedLibrary('rdielprec', ['rdielprec.cpp'])
+
+# add by GY
+# plugins += env.SharedLibrary('layered_util', ['layered_util.cpp'])
+# plugins += env.SharedLibrary('layeredBSDF_util', ['layeredBSDF_util.cpp'])
+plugins += env.SharedLibrary('callLayeredBSDF_util', ['layered/callLayeredBSDF_util.cpp'])
+plugins += env.SharedLibrary('callLayeredBSDF_simple_util', ['layered/callLayeredBSDF_simple_util.cpp'])
+plugins += env.SharedLibrary('callLayeredBSDF_pdf_util', ['layered/callLayeredBSDF_pdf_util.cpp'])
+# plugins += env.SharedLibrary('bdsim_gy', ['layered/bdsim_gy.cpp', 'layer_bidir/stats.cpp'])
+
+# plugins += env.SharedLibrary('traceray_height', ['heightmap/traceray_height.cpp'])
+# plugins += env.SharedLibrary('traceray_height2', ['heightmap/traceray_height2.cpp'])
+# plugins += env.SharedLibrary('traceray_height3', ['heightmap/traceray_height3.cpp'])
+plugins += env.SharedLibrary('callHeightBSDF_util', ['heightmap/callHeightBSDF_util.cpp'])
+
+plugins += env.SharedLibrary('bdsim', ['layer_bidir/bdsim.cpp', 'layer_bidir/stats.cpp'])
+plugins += env.SharedLibrary('bdsim1', ['layer_bidir/bdsim1.cpp', 'layer_bidir/stats.cpp'])
+plugins += env.SharedLibrary('bdsim2', ['layer_bidir/bdsim2.cpp', 'layer_bidir/stats.cpp'])
+plugins += env.SharedLibrary('bdsim2_1', ['layer_bidir/bdsim2_1.cpp', 'layer_bidir/stats.cpp'])
+plugins += env.SharedLibrary('bdsim2_2', ['layer_bidir/bdsim2_2.cpp', 'layer_bidir/stats.cpp'])
+plugins += env.SharedLibrary('sgbench', ['layer_bidir/sgbench.cpp', 'layer_bidir/stats.cpp'])
+
+Export('plugins')
