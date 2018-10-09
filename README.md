@@ -55,9 +55,10 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
 
 ## Scene file (.xml) explanation
  - `<scene version="0.6.0">` (Here using 0.6.0, but not 0.5.0)
- - `<integrator type="path_layered">` (This integrator is based on `path`)
+ - `<integrator type="path_layered">` (`path_layered` preferred, but can still use `path`, `volpath` or `volpath_simple` instead)
  - `<bsdf type="multilayered"> ... </bsdf>` (BSDF type is `multilayered`, both our `uni-dir` and `bi-dir` methods are implemented here)
  - 
 ## Notes
  - Default precision in `config.py` is `single`. If you find too many warnings or even crashed when rendering scenes, you should try `double` precision instead. (Already provided in `config.py`)
+ - `conductor` and `dielectric` are not supported now, use `roughconductor (a=0.001)` and `roughdielectric (a=0.001)` instead.
  - Welcome to report bugs and leave comments (Yu Guo: tflsguoyu@gmail.com)
