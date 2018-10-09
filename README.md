@@ -37,7 +37,10 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
   <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" title="teaser" height="128px">
 </a>
   
-
+<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/fig2.zip">
+  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/fig2.jpg" title="fig2" height="128px">
+</a>
+  
 
 ## Scene file (.xml) explanation
  - `<scene version="0.6.0">` (Here using 0.6.0, but not 0.5.0)
