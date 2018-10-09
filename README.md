@@ -37,8 +37,8 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
   <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" title="teaser" height="128px">
 </a>
   
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/fig2.zip">
-  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/fig2.jpg" title="fig2" height="128px">
+<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure2.zip">
+  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/figure2.jpg" title="figure2" height="128px">
 </a>
   
 
