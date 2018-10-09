@@ -42,7 +42,7 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
 </a>
   
 <a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure3.zip">
-  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/figure3.jpg" title="figure2" height="128px">
+  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/figure3.jpg" title="figure3" height="128px">
 </a>  
 
 ## Scene file (.xml) explanation
