@@ -49,4 +49,4 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
  - 
 ## Notes
  - Default precision in `config.py` is `single`. If you find too many warnings or even crashed when rendering scenes, you should try `double` precision instead. (Already provided in `config.py`)
- - 
+ - Welcome to report bugs and leave comments (Yu Guo: tflsguoyu@gmail.com)
