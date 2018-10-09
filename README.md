@@ -49,6 +49,10 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
   <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/figure8.jpg" title="figure8" height="128px">
 </a>  
 
+<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure15.zip">
+  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/figure15.jpg" title="figure15" height="128px">
+</a>  
+
 ## Scene file (.xml) explanation
  - `<scene version="0.6.0">` (Here using 0.6.0, but not 0.5.0)
  - `<integrator type="path_layered">` (This integrator is based on `path`)
