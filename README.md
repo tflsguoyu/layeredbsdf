@@ -49,7 +49,7 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
 </a>  
 
 <a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure11.zip">
-  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/fig11.jpg" title="figure11" height="128px">
+  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/figure11.jpg" title="figure11" height="128px">
 </a>  
 
 </br>
