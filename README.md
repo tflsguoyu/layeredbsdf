@@ -15,6 +15,7 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
    - `$ git clone https://github.com/tflsguoyu/layeredbsdf.git`
    - `$ cd layeredbsdf/`
    - `$ mv config_linux.py config.py`
+   - `$ sudo apt update`
    - `$ sudo apt install build-essential scons mercurial libpng12-dev libjpeg-dev libilmbase-dev libxerces-c-dev libboost-all-dev libopenexr-dev libglewmx-dev libxxf86vm-dev libpcrecpp0v5 libeigen3-dev libfftw3-dev`
    - `$ scons -j x` (x = # of cpu cores)
    - `source setpath.sh`
