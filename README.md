@@ -13,12 +13,13 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
 
   ### Linux (Preferred, Tested on Ubuntu 16.04)
    - `$ sudo apt update`
-   - `$ sudo apt install git build-essential scons mercurial libpng12-dev libjpeg-dev libilmbase-dev libxerces-c-dev libboost-all-dev libopenexr-dev libglewmx-dev libxxf86vm-dev libpcrecpp0v5 libeigen3-dev libfftw3-dev`
+   - `$ sudo apt upgrade`
+   - `$ sudo apt install git scons libboost-all-dev libpng-dev libjpeg-dev libopenexr-dev libxerces-c-dev libeigen3-dev libfftw3-dev libglewmx-dev`
    - `$ git clone https://github.com/tflsguoyu/layeredbsdf.git`
    - `$ cd layeredbsdf/`
    - `$ mv config_linux.py config.py`
    - `$ scons -j x` (x = # of cpu cores)
-   - `source setpath.sh`
+   - `$ source setpath.sh`
    Now you can render scenes
    - `$ mitsuba xxx.xml`
    
