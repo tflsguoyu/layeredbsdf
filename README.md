@@ -14,7 +14,7 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
   ### Linux (Preferred, Tested on Ubuntu 16.04)
    - `$ sudo apt update`
    - `$ sudo apt upgrade`
-   - `$ sudo apt install git scons libboost-all-dev libpng-dev libjpeg-dev libopenexr-dev libxerces-c-dev libeigen3-dev libfftw3-dev libglewmx-dev`
+   - `$ sudo apt install git scons libboost-all-dev libpng-dev libjpeg-dev libopenexr-dev libxerces-c-dev libeigen3-dev libfftw3-dev libglewmx-dev freeglut3-dev`
    - `$ git clone https://github.com/tflsguoyu/layeredbsdf.git`
    - `$ cd layeredbsdf/`
    - `$ mv config_linux.py config.py`
