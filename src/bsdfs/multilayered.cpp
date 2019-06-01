@@ -560,8 +560,10 @@ public:
 				}
 
 				path_this.epdf[0] = mRec.pdfSuccess / std::abs(ray.d.z);
-				//if (path_this.epdf[0] < Epsilon)
-				//	cout << "[GY]: Warning: path_this.epdf[0] is: " << path_this.epdf[0] << endl;
+				if (path_this.epdf[0] < Epsilon) {
+					throughput = Spectrum(0.0);
+					break;					
+				}
 
 				path_this.epdf[1] = path.back().surf ? mRec.pdfFailure : mRec.pdfSuccessRev / std::abs(ray.d.z);
 
@@ -577,6 +579,11 @@ public:
 				path_this.wo = pRec.wo;
 
 				path_this.vpdf[0] = phase->pdf(pRec);
+				if (path_this.vpdf[0] < Epsilon) {
+					throughput = Spectrum(0.0);
+					break;					
+				}
+
 				PhaseFunctionSamplingRecord pRec_reverse(pRec);
 				pRec_reverse.reverse();
 				path_this.vpdf[1] = phase->pdf(pRec_reverse);
@@ -598,8 +605,10 @@ public:
 					throughput *= mRec.transmittance / mRec.pdfFailure;
 
 					path_this.epdf[0] = mRec.pdfFailure;
-					//if (path_this.epdf[0] < Epsilon)
-					//	cout << "[GY]: Warning: path_this.epdf[0] is: " << path_this.epdf[0] << endl;
+					if (path_this.epdf[0] < Epsilon) {
+						throughput = Spectrum(0.0);
+						break;					
+					}
 
 					path_this.epdf[1] = path.back().surf ? mRec.pdfFailure : mRec.pdfSuccessRev / std::abs(ray.d.z);
 				}
@@ -680,6 +689,10 @@ public:
 				path_this.thru1 = throughput;
 
 				path_this.vpdf[0] = bsdf->pdf(bRec);
+				if (path_this.vpdf[0] < Epsilon) {
+					throughput = Spectrum(0.0);
+					break;					
+				}
 				BSDFSamplingRecord bRec_reverse(bRec);
 				bRec_reverse.reverse();
 				path_this.vpdf[1] = bsdf->pdf(bRec_reverse);
@@ -1015,35 +1028,6 @@ public:
 						id_connectMedium = id_L;
 					}
 				}
-
-				//if (path_L[i].surf) {
-				//	if (path_R[j].surf) {
-				//		if ((std::abs(id_L - id_R) - 1) < Epsilon) {
-				//			validConnection = true;
-				//			id_connectMedium = std::min(id_L, id_R);
-				//		}						
-				//	}
-				//	else {
-				//		if ((id_L - id_R) < Epsilon || (id_L - (id_R + 1)) < Epsilon) {
-				//			validConnection = true;
-				//			id_connectMedium = id_R;
-				//		}
-				//	}
-				//}
-				//else {
-				//	if (path_R[j].surf) {
-				//		if ((id_L - id_R) < Epsilon || (id_L - (id_R - 1)) < Epsilon) {
-				//			validConnection = true;
-				//			id_connectMedium = id_L;
-				//		}
-				//	}
-				//	else {
-				//		if ((id_L - id_R) < Epsilon) {
-				//			validConnection = true;
-				//			id_connectMedium = id_L;
-				//		}
-				//	}
-				//}
 
 				if (validConnection) {
 					Spectrum f(0.0), funcVal(0.0);
