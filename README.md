@@ -28,7 +28,7 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
    - clone this git to local folder
    - go to folder ..\layeredbsdf\
    - rename config_windows.py to config.py
-   - download [dependencies](https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/dependencies.zip)
+   - download [dependencies](https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/dependencies.zip)
    - 
    - 
    
