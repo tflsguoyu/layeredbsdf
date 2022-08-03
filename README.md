@@ -4,7 +4,7 @@
 In ACM Transactions on Graphics (SIGGRAPH Asia 2018). 
 [[Project page]](https://shuangz.com/projects/layered-sa18/)
 
-<img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" width="500px">
+<img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/teaser.jpg" width="500px">
 
 ## Overview
 This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.com/mitsuba-renderer/mitsuba)
@@ -35,7 +35,7 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
 ## Examples in paper (click image to download scene files)
 
 <a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/teaser.zip">
-  <img src="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/images/teaser.jpg" title="teaser" height="128px">
+  <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/teaser.jpg" title="teaser" height="128px">
 </a>
   
 <a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure2.zip">
