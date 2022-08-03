@@ -34,45 +34,45 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
    
 ## Examples in paper (click image to download scene files)
 
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/teaser.zip">
+<a href="https://www.dropbox.com/s/jbethredc7r9742/teaser.zip?dl=0">
   <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/teaser.jpg" title="teaser" height="128px">
 </a>
   
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure2.zip">
+<a href="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/scenes/figure2.zip">
   <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/figure2.jpg" title="figure2" height="128px">
 </a>
   
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure3.zip">
+<a href="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/scenes/figure3.zip">
   <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/figure3.jpg" title="figure3" height="128px">
 </a>  
 
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure8.zip">
+<a href="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/scenes/figure8.zip">
   <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/figure8.jpg" title="figure8" height="128px">
 </a>  
 
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure11.zip">
+<a href="https://www.dropbox.com/s/ds4ic1fw1cypqn7/figure11.zip?dl=0">
   <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/figure11.jpg" title="figure11" height="128px">
 </a>  
 
 </br>
 
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure12t.zip">
+<a href="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/scenes/figure12t.zip">
   <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/figure12t.jpg" title="figure12t" height="128px">
 </a>  
 
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure12b.zip">
+<a href="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/scenes/figure12b.zip">
   <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/figure12b.jpg" title="figure12b" height="128px">
 </a>  
 
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure13.zip">
+<a href="https://www.dropbox.com/s/ssof650irx7blug/figure13.zip?dl=0">
   <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/figure13.jpg" title="figure13" height="128px">
 </a>  
 
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure14.zip">
+<a href="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/scenes/figure14.zip">
   <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/figure14.jpg" title="figure14" height="128px">
 </a>  
 
-<a href="https://www.ics.uci.edu/~yug10/projects/SiggraphAsia2018/git-readme/scenes/figure15.zip">
+<a href="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/scenes/figure15.zip">
   <img src="https://github.com/tflsguoyu/tflsguoyu.github.io/blob/master/webpage/projects/layeredbsdf/git/images/figure15.jpg" title="figure15" height="128px">
 </a>  
 
