@@ -50,7 +50,7 @@ This is a branch of the Mitsuba (0.6.0) renderer (official repo: https://github.
 </a>  
 
 <a href="https://www.dropbox.com/s/ds4ic1fw1cypqn7/figure11.zip?dl=0">
-  <img src="https://github.com/tflsguoyu/layeredbsdf_suppl/blob/master/github/images/figure11.jpg.jpg" title="figure11" height="128px">
+  <img src="https://github.com/tflsguoyu/layeredbsdf_suppl/blob/master/github/images/figure11.jpg" title="figure11" height="128px">
 </a>  
 
 </br>
