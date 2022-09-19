@@ -3,7 +3,11 @@
 [Yu Guo](https://tflsguoyu.github.io/), [Miloš Hašan](http://miloshasan.net/), [Shuang Zhao](https://shuangz.com/). 
 In ACM Transactions on Graphics (SIGGRAPH Asia 2018). 
 
-<img src="https://github.com/tflsguoyu/layeredbsdf_suppl/blob/master/github/images/teaser.jpg" width="500px">
+<img src="https://github.com/tflsguoyu/layeredbsdf_suppl/blob/master/github/images/teaser.jpg" height="300px">
+<img src="https://github.com/tflsguoyu/layeredbsdf_suppl/blob/master/github/images/green.jpg" height="300px">
+<img src="https://github.com/tflsguoyu/layeredbsdf_suppl/blob/master/github/images/yellow.jpg" height="300px">
+<img src="https://github.com/tflsguoyu/layeredbsdf_suppl/blob/master/github/images/blue.jpg" height="300px">
+<img src="https://github.com/tflsguoyu/layeredbsdf_suppl/blob/master/github/images/magenta.jpg" height="300px">
 
 [[Paper](https://github.com/tflsguoyu/layeredbsdf_paper/blob/master/layeredbsdf.pdf)]
 [[Code](https://github.com/tflsguoyu/layeredbsdf)]
